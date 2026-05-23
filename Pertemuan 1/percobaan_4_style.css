@@ -39,11 +39,11 @@ body {
     text-decoration: none;
     padding: 10px 15px;
     background-color: #34495e;
-    border: 1px solid #4a6741;
+    border: 1px solid #120e45;
 }
 
 .navigation a:hover {
-    background-color: #4a6741;
+    background-color: #120e45;
 }
 
 .container {
