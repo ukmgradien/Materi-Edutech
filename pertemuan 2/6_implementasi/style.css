@@ -1,0 +1,36 @@
+#portofolio-saya {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#kumpulan-proyek {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.kartu-proyek {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.tag {
+    background-color: #333;
+    color: #f7df1e;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-filter {
+    margin: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}

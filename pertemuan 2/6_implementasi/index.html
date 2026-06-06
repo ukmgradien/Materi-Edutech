@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>implementasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="portofolio-saya">
+    <h2>Karya & Proyek</h2>
+    
+    <div id="filter-tombol">
+        <button class="btn-filter" onclick="filterProyek('semua')">Semua</button>
+        <button class="btn-filter" onclick="filterProyek('web')">Web Dev</button>
+        <button class="btn-filter" onclick="filterProyek('sistem')">Sistem & Jaringan</button>
+    </div>
+
+    <div id="kumpulan-proyek">
+        <div class="kartu-proyek web">
+            <h3>LeyOne Store</h3>
+            <p>Platform E-Commerce berbasis web untuk layanan top-up in-game item digital secara real-time.</p>
+            <span class="tag">HTML, CSS, JS</span>
+        </div>
+
+        <div class="kartu-proyek sistem">
+            <h3>Lacak Parkir Universitas Lampung</h3>
+            <p>Sistem pelacakan dan monitoring area parkir pintar untuk memudahkan pencarian slot kosong.</p>
+            <span class="tag">Linux, Networking</span>
+        </div>
+        
+        <div class="kartu-proyek web">
+            <h3>Modul Interaktif</h3>
+            <p>Pembuatan modul pembelajaran front-end interaktif untuk pemula.</p>
+            <span class="tag">JavaScript DOM</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</section>
